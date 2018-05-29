@@ -19,14 +19,12 @@ html, body {
 }
 
 body {
+  background-color: #f1e8df;
 }
 
 a {
   text-decoration: none;
   color: #3a3937;
-}
-a:hover {
-  color: #f8605d;
 }
 
 
@@ -34,12 +32,11 @@ h1, h2, h3, h4, h5 {
   font-family: "Raleway Black", Arial;
 }
 
-.hightlight {
+a:hover .highlight, .menu-item:hover.highlight {
   color: #f8605d;
 }
 
 .header {
-  background-color: #f1e8df;
 }
 
 .logo {
@@ -47,6 +44,7 @@ h1, h2, h3, h4, h5 {
   vertical-align: middle;
   font-family: "Raleway Black", Arial;
   font-size: 40px;
+  color: #f8605d;
   margin: 10px 20px 10px 40px;
 }
 .menu {
@@ -61,14 +59,16 @@ h1, h2, h3, h4, h5 {
 
 
 .content {
-  padding: 0px 40px 0px 40px;
-}
-
-.page {
   width: 700px;
 }
 
+.page {
+  padding: 0px 40px 0px 40px;
+}
+
+.post-preview > h4 {
+  margin-bottom: 0;
+}
 
 .post {
-  background-color: #ffffff;
 }

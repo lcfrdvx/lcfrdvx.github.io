@@ -2,5 +2,4 @@ title: LCFRDVX
 description: "Test"
 keywords: ""
 
-permalink : /posts/:title/
-baseurl: ""
+permalink : pretty

@@ -2,10 +2,4 @@
 layout: default
 title: Home
 ---
-
-{% for post in site.posts %}
-<div class="post-preview">
-  <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-  <div>{{ post.date | date: "%b %-d, %Y" }}</div>
-</div>
-{% endfor %}
+{% include posts.html %}

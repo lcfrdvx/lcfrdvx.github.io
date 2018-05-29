@@ -1,0 +1,8 @@
+{% for post in site.posts %}
+<a href="{{ post.url | prepend: site.baseurl }}">
+  <div class="post-preview">
+    <h4 class="highlight">{{ post.title }}</h4>
+    <div>{{ post.date | date: "%b %-d, %Y" }}</div>
+  </div>
+</a>
+{% endfor %}
