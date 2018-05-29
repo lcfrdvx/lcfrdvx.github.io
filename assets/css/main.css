@@ -8,13 +8,19 @@
     src: url("/assets/fonts/Lato/Lato-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Open Sans Semi-Bold";
+    src: url("/assets/fonts/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+
 /*red: #f8605d*/
 /*beige: #f1e8df*/
 /*light dark: #3a3937*/
 
 html, body {
   margin: 0;
-  font-family: "Lato Regular", Arial;
+  font-family: "Open Sans Semi-Bold", Arial;
   color: #3a3937;
 }
 
@@ -27,14 +33,19 @@ a {
   color: #3a3937;
 }
 
-
 h1, h2, h3, h4, h5 {
   font-family: "Raleway Black", Arial;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 a:hover .highlight, .menu-item:hover.highlight {
   color: #f8605d;
 }
+
+
 
 .header {
 }
@@ -43,9 +54,12 @@ a:hover .highlight, .menu-item:hover.highlight {
   display: inline-block;
   vertical-align: middle;
   font-family: "Raleway Black", Arial;
-  font-size: 40px;
-  color: #f8605d;
+  font-size: 50px;
   margin: 10px 20px 10px 40px;
+}
+
+.red {
+  color: #f8605d;
 }
 .menu {
   display: inline-block;
@@ -59,7 +73,8 @@ a:hover .highlight, .menu-item:hover.highlight {
 
 
 .content {
-  width: 700px;
+  max-width: 700px;
+  margin-left: 40px;
 }
 
 .page {
