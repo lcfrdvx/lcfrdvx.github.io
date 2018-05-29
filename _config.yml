@@ -7,3 +7,4 @@ source: sources
 destination: _site
 
 permalink : /posts/:title/
+baseurl: ""
