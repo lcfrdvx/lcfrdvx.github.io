@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
   font-family: "Raleway Black", Arial;
 }
 
-h1 {
+.page-title {
   font-size: 60px;
 }
 
@@ -61,6 +61,7 @@ a:hover .highlight, .menu-item:hover.highlight {
 .red {
   color: #f8605d;
 }
+
 .menu {
   display: inline-block;
   font-family: "Raleway Black", Arial;
