@@ -2,9 +2,5 @@ title: LCFRDVX
 description: "Test"
 keywords: ""
 
-
-source: sources
-destination: _site
-
 permalink : /posts/:title/
 baseurl: ""
