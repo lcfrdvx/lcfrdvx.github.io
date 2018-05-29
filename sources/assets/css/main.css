@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url("/assets/fonts/Raleway/Raleway-Black.ttf");
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url("/assets/fonts/Lato/Lato-Regular.ttf");
+}
+
+/*red: #f8605d*/
+/*beige: #f1e8df*/
+/*light dark: #3a3937*/
+
+html, body {
+  margin: 0;
+  font-family: "Lato Regular", Arial;
+  color: #3a3937;
+}
+
+body {
+}
+
+a {
+  text-decoration: none;
+  color: #3a3937;
+}
+a:hover {
+  color: #f8605d;
+}
+
+
+h1, h2, h3 {
+  font-family: "Raleway Black", Arial;
+}
+
+.hightlight {
+  color: #f8605d;
+}
+
+.header {
+  background-color: #f1e8df;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Raleway Black", Arial;
+  font-size: 40px;
+  margin: 10px 20px 10px 40px;
+}
+.menu {
+  display: inline-block;
+  font-family: "Raleway Black", Arial;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 30px;
+}
+
+
+.content {
+  padding: 0px 40px 0px 40px;
+}
+
+.page {
+  width: 700px;
+}
+
+
+.post {
+  background-color: #ffffff;
+}
